@@ -1,9 +1,9 @@
 :root {
   --font-base: 'Cormorant Upright', serif;
   --font-alt: 'Open Sans', sans-serif;
-  
-  --color-skyblue: rgb(80,171,230);
---color-blue: #1777d1;
+
+  --color-skyblue: rgb(80, 171, 230);
+  --color-blue: #1777d1;
   --color-brown: #d7bb6e;
   --color-darkbrown: #7b6639;
   --color-black: #0C0C0C;
@@ -19,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
 code {

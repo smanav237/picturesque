@@ -1,5 +1,14 @@
 import React from 'react'
+import { render } from 'react-dom';
 import './Llogin.css';
+import SignUp from '../SignUp/SignUp';
+
+
+function Snp_click() {
+      const addrss = document.getElementById('landing_user');
+      render(<SignUp />, addrss);
+}
+
 
 const Login = () => {
       return (
@@ -17,6 +26,10 @@ const Login = () => {
                                     </div>
                                     <button class="button login__submit">
                                           <span class="button__text">Log In Now</span>
+                                          <i class="button__icon fas fa-chevron-right"></i>
+                                    </button>
+                                    <button class="button login__submit" onclick={Snp_click}>
+                                          <span class="button__text">SignUp</span>
                                           <i class="button__icon fas fa-chevron-right"></i>
                                     </button>
                               </form>
