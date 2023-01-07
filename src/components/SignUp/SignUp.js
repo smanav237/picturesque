@@ -7,10 +7,6 @@ function Lgn_click() {
       render(<Login />, addrss);
 }
 
-function Snp_click() {
-      const addrss = document.getElementById('landing_user');
-      render(<SignUp />, addrss);
-}
 
 const SignUp = () => {
       return (

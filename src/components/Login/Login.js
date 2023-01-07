@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom';
-import './Llogin.css';
+import './Login.css';
 import SignUp from '../SignUp/SignUp';
 
 
