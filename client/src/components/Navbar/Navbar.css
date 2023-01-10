@@ -1,0 +1,31 @@
+.head_nav{
+    margin: auto;
+    display: flex;
+    flex-direction :row;
+    justify-content: space-around;
+}
+/* .navbar_logo{
+    width:12%;
+    background-color: blue;;
+} */
+.navbar_features{
+    width:50%;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.navbar_items{
+    display: flex;
+    flex-direction:row;
+    gap:80px;
+    list-style-type: none;
+    height: 30px;
+    
+}
+
+.user_id_logo
+{
+    flex-direction:end;
+    background-color: grey;
+}
