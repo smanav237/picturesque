@@ -1,6 +1,5 @@
 import React from 'react'
 import { render } from 'react-dom';
-import landing_profile from "../images/landing_profile.jpg"
 import landing_logo from "../images/image17.PNG"
 import './Landing.css';
 import Login from '../Login/Login'

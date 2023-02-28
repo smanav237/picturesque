@@ -28,7 +28,7 @@ const Login = () => {
                                           <span class="button__text">Log In Now</span>
                                           <i class="button__icon fas fa-chevron-right"></i>
                                     </button>
-                                    <button class="button login__submit" onClick={Snp_click}>
+                                    <button class="button login__submit" onlick={Snp_click}>
                                           <span class="button__text">SignUp</span>
                                           <i class="button__icon fas fa-chevron-right"></i>
                                     </button>
